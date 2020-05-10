@@ -20,7 +20,7 @@ except ImportError:
 
 colors=['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m']
 W='\033[0m'
-# The Credit For This Code Goes To SpeedX And All Other Contributors Listed At https://github.com/sujoybiswas/TBomb
+# The Credit For This Code Goes To SpeedX And All Other Contributors Listed At https://github.com/sujoybiswas/TBomb-
 # If You Wanna Take Credits For This Code, Please Look Yourself Again
 
 country_codes = {
@@ -477,7 +477,7 @@ def update():
     stuff_to_update = ['bomber.py', '.version']
     for fl in stuff_to_update:
         dat = urllib.request.urlopen(
-            "https://raw.githubusercontent.com/Sujoybiswas/TBomb/master/" + fl).read()
+            "https://raw.githubusercontent.com/Sujoybiswas/TBomb-/master/" + fl).read()
         file = open(fl, 'wb')
         file.write(dat)
         file.close()
@@ -497,7 +497,7 @@ except Exception:
     exit()
 print('\tChecking For Updates...')
 ver = urllib.request.urlopen(
-    "https://raw.githubusercontent.com/Sujoybiswas/TBomb/master/.version").read().decode('utf-8')
+    "https://raw.githubusercontent.com/Sujoybiswas/TBomb-/master/.version").read().decode('utf-8')
 verl = ''
 try:
     verl = open(".version", 'r').read()
@@ -511,7 +511,7 @@ print("Your Version is Up-To-Date")
 print('\n\n\t\t\tStarting TBomb...\n\n')
 try:
     noti = urllib.request.urlopen(
-        "https://raw.githubusercontent.com/Sujoybiswas/TBomb/master/.notify").read().decode('utf-8')
+        "https://raw.githubusercontent.com/Sujoybiswas/TBomb-/master/.notify").read().decode('utf-8')
     noti = noti.upper().strip()
     if len(noti) > 10:
         print('\n\n\tNOTIFICATION: ' + noti + '\n\n')

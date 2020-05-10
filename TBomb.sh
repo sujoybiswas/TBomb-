@@ -1,5 +1,5 @@
 #!/bin/bash
-clear
+. clear
 echo -e "\e[4;31m SpeedX Productions !!! \e[0m"
 echo -e "\e[1;34m Presents \e[0m"
 echo -e "\e[1;32m TBomb \e[0m"
@@ -36,7 +36,7 @@ echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
 echo " "
 echo "Press 1 To  Start SMS Bomber "
 echo "Press 2 To  Start Call Bomber "
-echo "Press 3 To  Update (Works On Linux And Linux Emulators) "
+echo "Press 3 To  Update "
 echo "Press 4 To  View Features "
 echo "Press 5 To  Exit "
 read ch

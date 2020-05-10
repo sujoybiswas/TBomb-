@@ -58,7 +58,7 @@ elif [ $ch -eq 3 ];then
 clear
 apt install git -y
 echo -e "\e[1;34m Downloading Latest Files..."
-git clone https://github.com/TheSpeedX/TBomb
+git clone https://github.com/sujoybiswas/TBomb-
 if [[ -s TBomb/TBomb.sh ]];then
 cd TBomb
 cp -r -f * .. > temp
